@@ -2,4 +2,4 @@ services:
   - docker
 
 script:
-  - docker build -t bmxmale/docker-magento-varnish .
+  - docker build -t bmxmale/docker-magento-varnish:5.2.1 .
